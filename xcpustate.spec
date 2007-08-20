@@ -88,7 +88,7 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(-,root,root,0755)
 %doc README
 %attr(0755,root,root) %_bindir/xcpustate
-%attr(0644,root,root) %_mandir/man1/xcpustate.1x*
+%attr(0644,root,root) %_mandir/man1/xcpustate.1*
 %{_datadir}/applications/mandriva-%{name}.desktop
 %{_menudir}/%{name}
 %{_iconsdir}/%{name}.png
