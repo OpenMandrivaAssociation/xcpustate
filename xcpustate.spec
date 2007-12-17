@@ -19,7 +19,6 @@ Patch1:		xcpustate-2.5-alpha.patch
 Patch2:		xcpustate-2.5-6.0.patch
 Patch3:		xcpustate-2.9-missingheaders.patch
 
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 The xcpustate utility is an X Window System based monitor which shows
