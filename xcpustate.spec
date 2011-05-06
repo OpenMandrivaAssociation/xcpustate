@@ -1,7 +1,7 @@
 Summary:	An X Window System based CPU state monitor
 Name:		xcpustate
 Version:	2.9
-Release:	%mkrel 5
+Release:	%mkrel 6
 License:	MIT-style
 Group:		Monitoring
 BuildRequires:	libx11-devel
