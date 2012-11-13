@@ -1,0 +1,20 @@
+--- xcpustate-2.9/s-linux.c	2007-08-30 16:28:25.000000000 -0700
++++ xcpustate-2.9/s-linux.c.new	2007-08-30 16:53:07.000000000 -0700
+@@ -27,7 +27,7 @@
+  * data structures.
+  */
+ #define CONFIG_SMP
+-#include <linux/threads.h>
++// #include <threads.h>
+ /* if NR_CPUS is undefined or 1, need to set it to a more reasonable number */
+ #define DEFAULT_MAXCPUS 8
+ #ifndef NR_CPUS
+@@ -48,7 +48,7 @@ static int maxcpus=NR_CPUS;
+  * it first.  Warning: this resets NR_CPUS to 1; use maxcpus.
+  */
+ #undef CONFIG_SMP 
+-#include <linux/kernel_stat.h>
++// #include <linux/kernel_stat.h>
+ #ifndef DK_MAX_DISK
+ #define DK_MAX_DISK 16	/* pick a reasonable default if not set */
+ #endif /* DK_MAX_DISK */
