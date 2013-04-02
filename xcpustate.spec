@@ -38,10 +38,9 @@ CPU state monitor.
 %patch1 -p1 -b .alpha
 %endif
 
-
 %build
 xmkmf
-%make CDEBUGFLAGS="%{optflags}" MANPATH=%{_mandir} MACHLIBS="-ltirpc"
+%make CDEBUGFLAGS="%{optflags}" MANPATH=%{_mandir} SYS_LIBRARIES="-ltirpc"
 
 %install
 %{makeinstall_std} install.man MANPATH=%{_mandir}
