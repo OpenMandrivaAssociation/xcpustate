@@ -41,7 +41,7 @@ CPU state monitor.
 
 %build
 xmkmf
-%make CDEBUGFLAGS="%{optflags}" MANPATH=%{_mandir}
+%make CDEBUGFLAGS="%{optflags}" MANPATH=%{_mandir} MACHLIBS="-ltirpc"
 
 %install
 %{makeinstall_std} install.man MANPATH=%{_mandir}
