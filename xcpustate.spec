@@ -1,7 +1,7 @@
 Summary:	An X Window System based CPU state monitor
 Name:		xcpustate
 Version:	2.9
-Release:	9
+Release:	10
 License:	MIT-style
 Group:		Monitoring
 URL:		ftp://ftp.cs.toronto.edu/pub/jdd/xcpustate/
@@ -16,6 +16,7 @@ BuildRequires:	pkgconfig(x11)
 BuildRequires:	pkgconfig(xaw7)
 BuildRequires:	pkgconfig(xmu)
 BuildRequires:	pkgconfig(xt)
+BuildRequires:	tirpc-devel
 Patch1:		xcpustate-2.5-alpha.patch
 Patch2:		xcpustate-2.5-6.0.patch
 Patch3:		xcpustate-2.9-missingheaders.patch
