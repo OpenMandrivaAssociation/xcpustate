@@ -1,3 +1,5 @@
+%define debug_package %{nil}
+
 Summary:	An X Window System based CPU state monitor
 Name:		xcpustate
 Version:	2.9
