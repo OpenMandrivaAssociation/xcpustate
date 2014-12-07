@@ -3,7 +3,7 @@
 Summary:	An X Window System based CPU state monitor
 Name:		xcpustate
 Version:	2.9
-Release:	16
+Release:	17
 License:	MIT-style
 Group:		Monitoring
 URL:		ftp://ftp.cs.toronto.edu/pub/jdd/xcpustate/
